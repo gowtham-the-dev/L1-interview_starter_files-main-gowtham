@@ -116,8 +116,8 @@ import { getDeployments } from "@/api/diploymentApi";
 import { Button } from "@/components/ui/button";
 import type { Deployment, Status, StatusFilter } from "@/types";
 
-import DeploymentCard from "./example1";
-import { useDeploymentFilters } from "./example2";
+import DeploymentCard from "./DeploymentCard";
+import { useDeploymentFilters } from "../../hooks/useDeploymentFilters";
 
 /**
  * TODO
@@ -165,7 +165,7 @@ function getStatusCounts(deployments: Deployment[]) {
   );
 }
 
-export default function Example3() {
+export default function Deployments() {
   // This is a placeholder component to demonstrate the usage of the useQuery hook.
   // You can use the useQuery hook to fetch deployments and display them using the DeploymentCard component.
 

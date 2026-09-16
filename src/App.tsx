@@ -1,7 +1,7 @@
-import Example3 from "./exercise/example3";
+import Deployments from "./components/deployment/Deployments";
 
 const App = () => {
-  return <Example3 />;
+  return <Deployments />;
 };
 
 export default App;
